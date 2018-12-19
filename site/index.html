@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>practice</title>
+	<meta name="description" content="Practices of webcoding." />
 </head>
 <body>
 <fieldset id="form-practice">
@@ -25,9 +26,9 @@
 	</p>
 	<p>
 		Would you visit again?<br />
-		<label><input type="radio" name="visit-again" value="Yes" checked="checked">Yes</label>
-		<label><input type="radio" name="visit-again" value="No">No</label>
-		<label><input type="radio" name="visit-again" value="Maybe">Maybe</label>
+		<label><input type="radio" name="visit-again" value="yes" checked="checked">Yes</label>
+		<label><input type="radio" name="visit-again" value="no">No</label>
+		<label><input type="radio" name="visit-again" value="maybe">Maybe</label>
 	</p>
 	<p>
 		<label for="comments">Comments</label><br />
@@ -40,6 +41,24 @@
 	</p>
 </fieldset>
 </form>
+</fieldset>
+<fieldset id="markup-practice">
+<legend>Markup Practice</legend>
+<div class="header">
+<h1>The Art Book Shop</h1>
+<ul>
+	<li><a href="/index.html">home</a></li>
+	<li><a href="/index.html">new publication</a></li>
+	<li class="current-page"><a href="/index.html">contac</a></li>
+</ul>
+</div><!--end of header-->
+<div id="content">
+	<p>Charing Cross Road,London,WC2,UK</p>
+	<p><span class="contact">Telephone</span>0123456789</p>
+	<p><span class="contact">Email</span><a href="mailto:book@example.com">book@example.com</a></p>
+	<iframe src="https://j.map.baidu.com/Bj1u2" width="425" height="275" frameborder="2" scrolling="no" marginheight="5" marginwidth="5">A Map</iframe>
+</div><!--end of content-->
+<p>&copy; The Art Bookshop</p>
 </fieldset>
 </body>
 </html>
