@@ -4,7 +4,7 @@
 	<title>practice</title>
 </head>
 <body>
-<fieldset id="form-practice" border="1">
+<fieldset id="form-practice">
 <legend><h1>Form Practice</h1></legend>
 <form action="http://www.example.com/subscribe.php" method="post">
 <fieldset id="details">
@@ -30,8 +30,13 @@
 		<label><input type="radio" name="visit-again" value="Maybe">Maybe</label>
 	</p>
 	<p>
-		<label for="comments">Comments</label>
-		<textarea id="comments" name="comments" rows="5" cols="20" maxlength="100" placeholder="Enter your comments here..."></textarea>
+		<label for="comments">Comments</label><br />
+		<textarea id="comments" name="comments" rows="5" cols="50" maxlength="200">Enter your comments here...</textarea>
+	</p>
+	<p>
+		<label><input type="checkbox" name="">Sign me up for email updates</label><br />
+		<input type="submit" value="Submit">
+		<!-- <button img src=""></button> -->
 	</p>
 </fieldset>
 </form>
